@@ -47,12 +47,14 @@
       <nav class="site-nav" id="site-nav" aria-label="Primary">
         <ul>
           <li><a href="#welcome" data-panel="welcome" aria-current="page">Welcome</a></li>
+          <li><a href="#story" data-panel="story">Our story</a></li>
           <li><a href="#ministries" data-panel="ministries">Ministries</a></li>
           <li><a href="#schedule" data-panel="schedule">Schedule</a></li>
           <li><a href="#broadcast" data-panel="broadcast">Live</a></li>
           <li><a href="#beliefs" data-panel="beliefs">Beliefs</a></li>
           <li><a href="#bible" data-panel="bible">Bible</a></li>
           <li><a href="#outreach" data-panel="outreach">Outreach</a></li>
+          <li><a href="#map" data-panel="map">Map</a></li>
           <li><a href="#visit" data-panel="visit">Visit</a></li>
         </ul>
       </nav>
@@ -197,7 +199,8 @@
           <div class="hero-actions">
             <a class="btn btn-primary" href="#broadcast" data-panel="broadcast">Watch live</a>
             <a class="btn btn-ghost" href="#schedule" data-panel="schedule">Service schedule</a>
-            <a class="btn btn-ghost" href="#visit" data-panel="visit">Directions &amp; contact</a>
+            <a class="btn btn-ghost" href="#map" data-panel="map">Find us on the map</a>
+            <a class="btn btn-ghost" href="#visit" data-panel="visit">Contact</a>
           </div>
         </div>
       </div>
@@ -208,11 +211,11 @@
         <div class="split-block">
           <div class="split-copy narrow-reset">
             <h2>Welcome</h2>
-            <p>Greetings from <strong>Living Christ Bible Baptist Church</strong>! Join our weekly services through <strong>live video</strong> streamed from our church auditorium in <em>Your City</em> (update this line in <code>index.html</code>). As you browse our site, we hope you will see the ministries and opportunities where our members serve Christ together.</p>
+            <p>Greetings from <strong>Living Christ Bible Baptist Church</strong>! Join our weekly services through <strong>live video</strong> streamed from our church auditorium at <strong>116 Calle Onse, Parada, Valenzuela, Philippines</strong>. As you browse our site, we hope you will see the ministries and opportunities where our members serve Christ together.</p>
             <p>It is our joy to share the peace that comes from knowing the Lord Jesus Christ as your personal Saviour. You are welcome not only here online, but at our church home as well—we would love to greet you at Living Christ. Have a blessed day!</p>
             <blockquote class="welcome-signoff">
               <p>“Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ.”</p>
-              <cite>— Placeholder: Pastor’s name &amp; title (update in <code>index.html</code>)</cite>
+              <cite>Pastor <strong>Rollie Rosales Collano</strong></cite>
             </blockquote>
             <div class="panel-scripture">
               <blockquote>
@@ -230,9 +233,45 @@
               alt="Open Bible on a table (temporary placeholder photo)"
               loading="lazy"
             />
-            <figcaption class="media-badge">Temporary photo — replace in <code>index.html</code></figcaption>
           </figure>
         </div>
+      </div>
+    </section>
+
+    <section class="section section-alt page-panel" id="story" hidden aria-label="Our story" tabindex="-1">
+      <div class="container">
+        <h2>Our story</h2>
+        <p class="section-intro">Below is a <strong>template timeline</strong>—replace each date, title, and paragraph with your church’s real history. Add or remove entries as needed.</p>
+
+        <ol class="history-timeline">
+          <li class="history-entry">
+            <time class="history-date" datetime="YYYY-MM">[Month Year — e.g. January 1990]</time>
+            <h3 class="history-title">[Milestone — e.g. How the work began]</h3>
+            <p class="history-text">[Describe how the church started: burden for souls, first meetings, location, founding families, or missionary help.]</p>
+          </li>
+          <li class="history-entry">
+            <time class="history-date" datetime="YYYY-MM">[Month Year — e.g. June 1995]</time>
+            <h3 class="history-title">[Milestone — e.g. Organized as a local church]</h3>
+            <p class="history-text">[Write when you were constituted, who the pastor was, charter members, and statement of faith adopted.]</p>
+          </li>
+          <li class="history-entry">
+            <time class="history-date" datetime="YYYY-MM">[Month Year — e.g. March 2005]</time>
+            <h3 class="history-title">[Milestone — e.g. Building or relocation]</h3>
+            <p class="history-text">[Note moves to 116 Calle Onse or other locations, building projects, and how God provided.]</p>
+          </li>
+          <li class="history-entry">
+            <time class="history-date" datetime="YYYY-MM">[Month Year — e.g. 2018]</time>
+            <h3 class="history-title">[Milestone — e.g. Ministries expanded]</h3>
+            <p class="history-text">[Sunday school growth, youth work, missions support, outreach, or live streaming begun.]</p>
+          </li>
+          <li class="history-entry">
+            <time class="history-date" datetime="YYYY-MM">[Month Year — e.g. Present day]</time>
+            <h3 class="history-title">[Milestone — e.g. Living Christ today]</h3>
+            <p class="history-text">[Summarize your present pastor, vision, and invitation for visitors to worship with you in Valenzuela.]</p>
+          </li>
+        </ol>
+
+        <p class="note history-note">Tip: Keep entries in order from oldest to newest. Use the <code>datetime</code> attribute on each <code>&lt;time&gt;</code> for accessibility (format: <code>1995-06</code> or <code>2005-03-15</code>).</p>
       </div>
     </section>
 
@@ -376,13 +415,54 @@
       </div>
     </section>
 
+    <section class="section page-panel" id="map" hidden aria-label="Church location map" tabindex="-1">
+      <div class="container">
+        <h2>Find us on the map</h2>
+        <p class="section-intro">Living Christ Bible Baptist Church is located at <strong>116 Calle Onse, Parada, Valenzuela, Philippines</strong>. Use the map below for directions, or open in Google Maps on your phone.</p>
+
+        <address class="map-address">
+          116 Calle Onse, Parada<br />
+          Valenzuela, Philippines
+        </address>
+
+        <div class="map-embed-shell">
+          <iframe
+            class="map-frame"
+            title="Map: Living Christ Bible Baptist Church, 116 Calle Onse, Parada, Valenzuela, Philippines"
+            src="https://maps.google.com/maps?q=116%20Calle%20Onse%2C%20Parada%2C%20Valenzuela%2C%20Philippines&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="map-actions">
+          <a
+            class="btn btn-primary"
+            href="https://www.google.com/maps/dir/?api=1&amp;destination=116+Calle+Onse,+Parada,+Valenzuela,+Philippines"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Get directions</a>
+          <a
+            class="btn btn-ghost"
+            href="https://www.google.com/maps/search/?api=1&amp;query=116+Calle+Onse,+Parada,+Valenzuela,+Philippines"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Open in Google Maps</a>
+        </div>
+      </div>
+    </section>
+
     <section class="section section-alt page-panel" id="visit" hidden aria-label="Visit us" tabindex="-1">
       <div class="container narrow">
         <h2>Visit us</h2>
         <dl class="contact">
           <div>
             <dt>Address</dt>
-            <dd>116 Calle Onse, Parada, Valenzuela, Philippines</dd>
+            <dd>
+              116 Calle Onse, Parada, Valenzuela, Philippines<br />
+              <a href="#map" data-panel="map">View on map</a>
+            </dd>
           </div>
           <div>
             <dt>Phone</dt>
@@ -406,18 +486,20 @@
           <span class="footer-logo-text">Living Christ</span>
         </p>
         <p class="footer-logo-sub">Bible Baptist Church</p>
-        <p class="footer-tagline">Preaching Christ crucified, standing on the King James Bible, and loving souls in Your City and beyond.</p>
+        <p class="footer-tagline">Preaching Christ crucified, standing on the King James Bible, and loving souls in Valenzuela and beyond.</p>
       </div>
       <div class="footer-col">
         <h3 class="footer-heading">On this page</h3>
         <ul class="footer-nav">
           <li><a href="#welcome" data-panel="welcome">Welcome</a></li>
+          <li><a href="#story" data-panel="story">Our story</a></li>
           <li><a href="#ministries" data-panel="ministries">Ministries</a></li>
           <li><a href="#schedule" data-panel="schedule">Schedule</a></li>
           <li><a href="#broadcast" data-panel="broadcast">Live</a></li>
           <li><a href="#beliefs" data-panel="beliefs">Beliefs</a></li>
           <li><a href="#bible" data-panel="bible">Bible</a></li>
           <li><a href="#outreach" data-panel="outreach">Outreach</a></li>
+          <li><a href="#map" data-panel="map">Map</a></li>
           <li><a href="#visit" data-panel="visit">Visit</a></li>
         </ul>
       </div>
