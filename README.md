@@ -1,6 +1,14 @@
 # Living Christ Bible Baptist Church — website
 
-A simple, static one-page site shaped like a typical **Bible Baptist church homepage** (welcome, ministries, schedule, live stream, beliefs, outreach, scripture, visit)—with **original** wording and styling so it is not a copy of any other church’s site. Replace placeholders for **city, pastor, contact, photos, and embed URL** before publishing.
+A simple, static one-page site shaped like a typical **Bible Baptist church homepage** (welcome, our story, ministries, schedule, live stream, beliefs, Bible reader, outreach, map, visit)—with **original** wording and styling. Church address: **116 Calle Onse, Parada, Valenzuela, Philippines**. Replace placeholders for **pastor, contact, photos, history timeline, and embed URL** before publishing.
+
+## Our story (history)
+
+Edit the **Our story** panel in `index.html`: each `history-entry` has a date (`<time>`), title (`<h3>`), and paragraph. Duplicate or delete `<li class="history-entry">` blocks as needed.
+
+## Map
+
+The **Map** nav opens an embedded Google Map for **116 Calle Onse, Parada, Valenzuela, Philippines**. “Get directions” and “Open in Google Maps” open Google in a new tab.
 
 ## Temporary photos
 
